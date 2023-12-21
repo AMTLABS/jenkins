@@ -6,6 +6,7 @@ def PIPELINE_GITURL = 'https://github.com/pacroy/abap-ci-postman.git'
 def PACKAGE = '''ZJENKINS'''
 def COVERAGE = 80
 def VARIANT = "DEFAULT"
+def GITHUBTUTORIAL = "TRUE"
 
 parallel (
     "NPL":{
